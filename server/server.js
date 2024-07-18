@@ -10,9 +10,9 @@ app.use(express.json())
 connectDB();
 
 
-app.get('/api/youtube', (req,res) => {
-    res.json({like: "Like the video", subscribe: "Subscribe to Etisha Garg channel for more such videos"});
-})
+/*app.get('/api/expense', (req,res) => {
+    res.json({money: "1500", used: "1200"});
+})*/
 
 app.post('/api/series', async(req, res)=> {
     //console.log(req.body)
